@@ -4,6 +4,7 @@ const userSchema = new mongoose.Schema({
     tel: { type: String, required: true },
     password: { type: String, required: true },
     Image: { type: String, default: '' },
+    code: { type: String, default: '' },
     createAT: { type: Date, default: Date.now },
     updateAT: { type: Date, default: Date.now }
 })
